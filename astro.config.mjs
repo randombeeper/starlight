@@ -5,6 +5,13 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
 	base: 'purple-pulsar',
+	plugins: [
+        starlightDocSearch({
+          appId: '82VLS1TU5K',
+          apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
+          indexName: 'fontawesome',
+        }),
+      ],
 	integrations: [
 		starlight({
 			title: 'My Docs',
