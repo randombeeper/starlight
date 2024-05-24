@@ -2,10 +2,13 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightDocSearch from '@astrojs/starlight-docsearch';
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
 	base: 'purple-pulsar',
+	trailingSlash: 'never',
 	integrations: [
 		starlight({
 			title: 'James Astro Testing',
@@ -32,5 +35,6 @@ export default defineConfig({
 				}),
 			  ],
 		}),
+		sitemap()
 	],
 });

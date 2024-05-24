@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://randombeeper.github.io/purple-pulsar/sitemap-index.xml
