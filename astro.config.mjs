@@ -6,19 +6,14 @@ import starlightDocSearch from '@astrojs/starlight-docsearch';
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
 	base: 'purple-pulsar',
-	plugins: [
-        starlightDocSearch({
-          appId: '82VLS1TU5K',
-          apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-          indexName: 'fontawesome',
-        }),
-      ],
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'James Astro Testing',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://randombeeper.github.io',
+				discord: 'https://alg.li/discord',
 			},
+			pagefind:false,
 			sidebar: [
 				{
 					label: 'Guides',
@@ -32,6 +27,13 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			plugins: [
+				starlightDocSearch({
+				  appId: '82VLS1TU5K',
+				  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
+				  indexName: 'fontawesome',
+				}),
+			  ],
 		}),
 	],
 });
