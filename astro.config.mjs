@@ -29,9 +29,9 @@ export default defineConfig({
 			],
 			plugins: [
 				starlightDocSearch({
-				  appId: '82VLS1TU5K',
-				  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-				  indexName: 'fontawesome',
+				  appId: 'FHAKRV7GHA',
+				  apiKey: '26a8eedb0937f39c55c689e3ea6f6d68',
+				  indexName: 'randombeeperio',
 				}),
 			  ],
 		}),
