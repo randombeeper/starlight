@@ -29,9 +29,12 @@ export default defineConfig({
 			],
 			plugins: [
 				starlightDocSearch({
-				  appId: 'FHAKRV7GHA',
-				  apiKey: '26a8eedb0937f39c55c689e3ea6f6d68',
-				  indexName: 'randombeeperio',
+				  //appId: 'PO8AE473XP',
+				  //apiKey: '65d14207c46db5dd63ecc87f9701be48',
+				  //indexName: 'randombeeperio',
+				  appId: '82VLS1TU5K',
+				  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
+				  indexName: 'starlightindx',
 				}),
 			  ],
 		}),
