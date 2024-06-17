@@ -34,7 +34,7 @@ export default defineConfig({
 				  //indexName: 'randombeeperio',
 				  appId: '82VLS1TU5K',
 				  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-				  indexName: 'starlightindx',
+				  indexName: 'astrobuildindx',
 				}),
 			  ],
 		}),
