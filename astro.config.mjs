@@ -28,11 +28,11 @@ export default defineConfig({
 				},
 			],
 			plugins: [
-				//starlightDocSearch({
-				//  appId: '82VLS1TU5K',
-				//  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-				//  indexName: 'astrobuildindx',
-				//}),
+				starlightDocSearch({
+				  appId: '65LZQF719B',
+				  apiKey: 'd1dafe2f4f14b43b068e484b39ddb2de',
+				  indexName: 'randombeeperio',
+				}),
 			  ],
 		}),
 		sitemap()
