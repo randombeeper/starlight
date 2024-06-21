@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
-	base: 'purple-pulsar',
+	base: 'purple-pulsarnew',
 	trailingSlash: 'never',
 	integrations: [
 		starlight({
@@ -28,14 +28,11 @@ export default defineConfig({
 				},
 			],
 			plugins: [
-				starlightDocSearch({
-				  //appId: 'PO8AE473XP',
-				  //apiKey: '65d14207c46db5dd63ecc87f9701be48',
-				  //indexName: 'randombeeperio',
-				  appId: '82VLS1TU5K',
-				  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-				  indexName: 'astrobuildindx',
-				}),
+				//starlightDocSearch({
+				//  appId: '82VLS1TU5K',
+				//  apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
+				//  indexName: 'astrobuildindx',
+				//}),
 			  ],
 		}),
 		sitemap()
