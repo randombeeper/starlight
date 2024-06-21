@@ -16,6 +16,9 @@ export default defineConfig({
 				github: 'https://randombeeper.github.io',
 				discord: 'https://alg.li/discord',
 			},
+			editLink: {
+				baseUrl: 'https://github.com/randombeeper/purple-pulsarnew',
+			},
 			pagefind:false,
 			sidebar: [
 				{
