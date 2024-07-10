@@ -1,5 +1,5 @@
 ---
-title: A test page
+title: A&amp;test page
 description: This is a test page description.
 ---
 
