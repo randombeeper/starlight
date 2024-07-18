@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
-	base: 'purple-pulsarnew',
+	base: 'starlight',
 	trailingSlash: 'never',
 	integrations: [
 		starlight({
@@ -17,7 +17,7 @@ export default defineConfig({
 				discord: 'https://alg.li/discord',
 			},
 			editLink: {
-				baseUrl: 'https://github.com/randombeeper/purple-pulsarnew',
+				baseUrl: 'https://github.com/randombeeper/starlight',
 			},
 			pagefind:false,
 			sidebar: [
