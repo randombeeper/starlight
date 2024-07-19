@@ -32,8 +32,8 @@ export default defineConfig({
 			],
 			plugins: [
 				starlightDocSearch({
-				  appId: '65LZQF719B',
-				  apiKey: 'd1dafe2f4f14b43b068e484b39ddb2de',
+				  appId: '7KX1KKVYQZ',
+				  apiKey: '11c3cc057560ae8269998fc74e263147',
 				  indexName: 'randombeeperio',
 				}),
 			  ],
