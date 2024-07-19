@@ -34,7 +34,7 @@ export default defineConfig({
 				starlightDocSearch({
 				  appId: '7KX1KKVYQZ',
 				  apiKey: '11c3cc057560ae8269998fc74e263147',
-				  indexName: 'randombeeperio',
+				  indexName: 'crawler_docusaurus',
 				}),
 			  ],
 		}),
