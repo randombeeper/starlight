@@ -17,7 +17,7 @@ export default defineConfig({
 				discord: 'https://alg.li/discord',
 			},
 			editLink: {
-				baseUrl: 'https://github.com/randombeeper/starlight',
+				baseUrl: 'https://github.com/randombeeper/starlight/',
 			},
 			pagefind:false,
 			sidebar: [
