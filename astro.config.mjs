@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
 	site: 'https://randombeeper.github.io/',
 	base: 'starlight',
-	trailingSlash: 'never',
+	trailingSlash: 'always',
 	integrations: [
 		starlight({
 			title: 'James Astro Testing',
