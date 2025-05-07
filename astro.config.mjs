@@ -32,9 +32,9 @@ export default defineConfig({
 			],
 			plugins: [
 				starlightDocSearch({
-				  appId: '7KX1KKVYQZ',
-				  apiKey: '11c3cc057560ae8269998fc74e263147',
-				  indexName: 'crawler_docusaurus',
+				  appId: 'beta9SC6XUPSJQ',
+				  apiKey: 'f97078b3e762a080bb540b440a628eeb',
+				  indexName: 'mycrawler',
 				}),
 			  ],
 		}),
